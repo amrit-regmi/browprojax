@@ -11,7 +11,7 @@ import ContactUs from './Components/Pages/ContactUs';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div style={{width:"100vw", height:"100vh",backgroundColor:"black"}}>
+    <div style={{width:"100vw", height:"100%",backgroundColor:"black"}}>
     <center>
       <img style={{maxHeight: "99vh", maxWidth: "100vw"}}src={require("./Images/opening.jpg") } alt="opening"></img>
       <img style={{maxHeight: "99vh", maxWidth: "100vw"}}src={require("./Images/services.jpg") } alt="opening"></img>
