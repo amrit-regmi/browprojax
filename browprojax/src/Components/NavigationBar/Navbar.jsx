@@ -6,10 +6,10 @@ import { useState } from 'react';
 
 const Navbar = () => {
   const navItems = [ 
-    {label:"home"}, 
-    {label:"brow services", type: "dropdownMenu"},
-    {label:"spa services", type: "dropdownMenu"},
-    {label:"about us"},
+    {label:"home" }, 
+    {label:"about Us"},
+    {label:"brow Services"},
+    {label:"spa Services"},
     {label:"contact"},
     ];
  
@@ -47,12 +47,9 @@ const Navbar = () => {
     <div className='navContainer'>
     {navItems.map((value) => {
       
-      if(value.type  !== "dropdownMenu"){
-        return <NavItem key={value.label} label={value.label} />
-      }
-      else{
-        return <NavItem key={value.label} label={value.label} />
-      }
+     
+        return <NavItem key={value.label} label={value.label}/>
+      
       
     })}</div></div>
     

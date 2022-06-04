@@ -10,7 +10,7 @@ const ContactUs = () => {
   } 
 
   return (
-    <div className='page' href='#contact'>
+    <div className='page' id='contact'>
       
       <div className='content contactUs'>
         <div className='pageTitle'>Contact Us / Visit Us</div>
