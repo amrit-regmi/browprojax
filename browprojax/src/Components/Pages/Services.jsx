@@ -7,7 +7,7 @@ const Services = () => {
     image:"threading.jpg",
     description:"A significant step to carry out when we talk about removing unwanted hair is threading. A lot of the spas and salons provide threading service but with a higher level of discomfort. At Brow Pro, we believe in delivering pain-free service with the most delicate finesse to go with it. We use ancient eastern technique of removing unwanted hair by use of single strand of organic cotton thread. This procedure does not involve any chemicals.",
 
-    price:"10 to 20 $ ",
+    price:"10 to 50 $ ",
     duration:"10-20 min"
   },
   {
@@ -23,15 +23,15 @@ const Services = () => {
     image:"lamination.jpg",
     description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis eum alias? Tempora aliquam sed ipsam explicabo, ratione esse optio, aspernatur fugit dignissimos quasi ex sint cupiditate corporis! Veritatis, itaque!",
 
-    price:"10 to 20 $ ",
+    price:"40 to 100 $ ",
     duration:"10-20 min"
   },
   {
     name:"Eylash lift / extension",
     image:"extension.jpg",
-    description:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis eum alias? Tempora aliquam sed ipsam explicabo, ratione esse optio, aspernatur fugit dignissimos quasi ex sint cupiditate corporis! Veritatis, itaque!",
+    description:"Eyebrow lamination is a relatively new procedure that focuses on creating shiny, smooth brows. Also sometimes called an \"eyebrow perm,\" the high-shine effects tend to be sought after by those who may be experiencing thinning or unruly brows. Unlike microblading, needles and coloring are not involved. As a semi-permanent procedure, eyebrow lamination may also be a good fit if you want to keep your brows styled a certain way but are tired of using eyebrow gel every day.",
 
-    price:"10 to 20 $ ",
+    price:"40 to 100 $ ",
     duration:"10-20 min"
   },
 ]
@@ -41,7 +41,7 @@ const spaServices =  [{
       image:"waxing.jpg",
       description:"At Brow Pro, we've perfected the art of waxing. We've streamlined our process to maximize your comfort, take up less of your time, and leave you with smoother, longer-lasting results.",
 
-      price:"$7 to $250 ",
+      price:"$10 to $20 ",
       duration:"10-60 min"
     },
     {
